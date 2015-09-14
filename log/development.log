@@ -1,0 +1,1720 @@
+
+
+Started GET "/" for ::1 at 2015-09-10 11:55:05 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.3ms)
+Completed 200 OK in 48ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-10 11:57:01 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 53ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-10 12:09:55 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (74.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (177.4ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 12:09:56 -0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (53.8ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (118.7ms)
+  [1m[36m (17.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (3.4ms)[0m  select sqlite_version(*)
+  [1m[36m (6.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateTickets (20150910190452)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "tickets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "seat_id_seq" varchar, "address" text, "price_paid" decimal, "email_address" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150910190452"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 12:17:55 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (4.8ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 2067ms (Views: 2049.2ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 12:17:57 -0700
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 12:18:02 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (75.7ms)
+  Rendered tickets/new.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 149ms (Views: 134.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tickets" for ::1 at 2015-09-10 12:18:30 -0700
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u5jiHId7kXcaGwzhTwOynSQjIzFXHr7ddqlWwkfF2pp1LFGaLQubRcsPVw56dIYfaFg8JJqM6GVVXQ0qN3O/4A==", "ticket"=>{"name"=>"Porsha", "seat_id_seq"=>"A11", "address"=>"www.facebook.com", "price_paid"=>"50.00", "email_address"=>"porsha.thompson@ymail.com"}, "commit"=>"Create Ticket"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.3ms)[0m  INSERT INTO "tickets" ("name", "seat_id_seq", "address", "price_paid", "email_address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["name", "Porsha"], ["seat_id_seq", "A11"], ["address", "www.facebook.com"], ["price_paid", 50.0], ["email_address", "porsha.thompson@ymail.com"], ["created_at", "2015-09-10 19:18:30.585839"], ["updated_at", "2015-09-10 19:18:30.585839"]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:8000/tickets/1
+Completed 302 Found in 22ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 12:18:30 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.4ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 102ms (Views: 81.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 12:18:36 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 12:18:48 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 12:18:51 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-09-10 16:04:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 44ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-10 16:04:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for ::1 at 2015-09-10 16:04:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/team"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (122.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (60.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (154.6ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:04:42 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (2.5ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 379ms (Views: 371.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 16:04:42 -0700
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 16:04:52 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (49.1ms)
+  Rendered tickets/new.html.erb within layouts/application (54.7ms)
+Completed 200 OK in 113ms (Views: 111.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:04:56 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:04:59 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.3ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/_form.html.erb (9.7ms)
+  Rendered tickets/edit.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 93ms (Views: 64.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:05:02 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 50ms (Views: 48.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:11:03 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 16:11:03 -0700
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:11:07 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (3.1ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:12:05 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/_form.html.erb (3.3ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 16:12:05 -0700
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:12:06 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (3.0ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 16:12:06 -0700
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:15:14 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/_form.html.erb (4.7ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `Seat #' for #<Ticket:0x007fb1582d96a8>):
+    17:   </div>
+    18:   <div class="field">
+    19:     <%= f.label "Seat #" %><br>
+    20:     <%= f.text_field "Seat #" %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :address %><br>
+  app/views/tickets/_form.html.erb:20:in `block in _app_views_tickets__form_html_erb___1393070598358370344_70199832547680'
+  app/views/tickets/_form.html.erb:1:in `_app_views_tickets__form_html_erb___1393070598358370344_70199832547680'
+  app/views/tickets/edit.html.erb:3:in `_app_views_tickets_edit_html_erb___3545514614686985747_70199822743960'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.9ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (48.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (101.9ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:16:15 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (3.1ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 16:16:15 -0700
+
+
+Started PATCH "/tickets/1" for ::1 at 2015-09-10 16:16:24 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bAC0ynJDkORTYVgeipO2OmydzM+edfcRTDITXVbX3LmitAdM2DOa1oJ1A/G/5IK4IObT2lPnoalvxki1JmG5ww==", "ticket"=>{"name"=>"Porsha", "seat_id_seq"=>"A112", "address"=>"www.facebook.com", "price_paid"=>"50.0", "email_address"=>"porsha.thompson@ymail.com"}, "commit"=>"Update Ticket", "id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "tickets" SET "seat_id_seq" = ?, "updated_at" = ? WHERE "tickets"."id" = ?  [["seat_id_seq", "A112"], ["updated_at", "2015-09-10 23:16:24.579664"], ["id", 1]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/1
+Completed 302 Found in 16ms (ActiveRecord: 10.6ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 16:16:24 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:16:27 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42ms (Views: 41.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 16:16:29 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (4.9ms)
+  Rendered tickets/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tickets" for ::1 at 2015-09-10 16:16:54 -0700
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aAJQVIWhcbShe3cvs+PVC+auZWqtc6Zzr04j66wpVqOmtuPSL9F7hnBvLMCGlOGJqtV6f2Dh8MuMungD3J8z2Q==", "ticket"=>{"name"=>"Judge Judy", "seat_id_seq"=>"B22", "address"=>"123 Lollipop Lane", "price_paid"=>"200.00", "email_address"=>"judgejudy.com"}, "commit"=>"Create Ticket"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.4ms)[0m  [1mINSERT INTO "tickets" ("name", "seat_id_seq", "address", "price_paid", "email_address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Judge Judy"], ["seat_id_seq", "B22"], ["address", "123 Lollipop Lane"], ["price_paid", 200.0], ["email_address", "judgejudy.com"], ["created_at", "2015-09-10 23:16:54.225488"], ["updated_at", "2015-09-10 23:16:54.225488"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/2
+Completed 302 Found in 17ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/tickets/2" for ::1 at 2015-09-10 16:16:54 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered tickets/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:16:58 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 16:17:10 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (2.2ms)
+  Rendered tickets/edit.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:17:11 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 16:17:12 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 16:17:14 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 20:46:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (165.7ms)
+  [1m[36mActiveRecord::SchemaMigration Load (2.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPhoneToTickets (20150910232547)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (3.3ms)[0m  [1mALTER TABLE "tickets" ADD "phone" varchar[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150910232547"]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 20:46:41 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 137ms (Views: 126.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 20:46:42 -0700
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 20:46:49 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (8.0ms)
+  Rendered tickets/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 20:46:54 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 20:53:20 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (2.9ms)
+  Rendered tickets/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 20:53:23 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:00:52 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:00:52 -0700
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:00:58 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:00:58 -0700
+
+
+Started GET "/tickets/new" for ::1 at 2015-09-10 21:01:00 -0700
+Processing by TicketsController#new as HTML
+  Rendered tickets/_form.html.erb (5.2ms)
+  Rendered tickets/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tickets" for ::1 at 2015-09-10 21:01:31 -0700
+Processing by TicketsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EPja+agdmpHB7AtfG2VaVFekamJmKFDxCOe698sdTe7eTGl/Am2QoxD4ULAuEm7WG991d6u6BkkrE+Efu6solA==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.00", "email_address"=>"lloop@loopy.org", "phone"=>"555-555-5555"}, "commit"=>"Create Ticket"}
+Unpermitted parameter: phone
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "tickets" ("name", "seat_id_seq", "address", "price_paid", "email_address", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Larry"], ["seat_id_seq", "Lollis"], ["address", "111 Noodle Loop"], ["price_paid", 0.0], ["email_address", "lloop@loopy.org"], ["created_at", "2015-09-11 04:01:31.020645"], ["updated_at", "2015-09-11 04:01:31.020645"]]
+  [1m[35m (9.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 16ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:01:31 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:01:35 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/3/edit" for ::1 at 2015-09-10 21:01:39 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/_form.html.erb (3.3ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tickets/3" for ::1 at 2015-09-10 21:01:47 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aJyi1i/BXXm3GN0aZOa/GaxqG3DiESxHXVakehCUCFKmKBFQhbFXS2YMhvVRkYub4BEEZS+Dev9+ov+SYCJtKA==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.0", "email_address"=>"lloop@loopy.org", "phone"=>"5555555555"}, "commit"=>"Update Ticket", "id"=>"3"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+Unpermitted parameter: phone
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:01:47 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:01:49 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/3/edit" for ::1 at 2015-09-10 21:03:03 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/_form.html.erb (4.0ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tickets/3" for ::1 at 2015-09-10 21:03:11 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f0wxvg5o3YsXLa43geC955Ye/VWTX/l7lphWP/2tG+yx+II4pBjXucY59di0l4ll2mXiQF7Nr8O1bA3XjRt+lg==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.0", "email_address"=>"lloop@loopy.org", "phone"=>"555555"}, "commit"=>"Update Ticket", "id"=>"3"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+Unpermitted parameter: phone
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:03:11 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:03:13 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:03:22 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:03:25 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.3ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:05:44 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:05:44 -0700
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:05:49 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/3/edit" for ::1 at 2015-09-10 21:05:50 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/_form.html.erb (3.7ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tickets/3" for ::1 at 2015-09-10 21:05:55 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeZKyMp8zNrHbqeXGfn82JiDDFoz67PhdCv+pXHMmx0DUvlOYAzG6BZ6/Hgsjsha1PgTT/555VlX36VNAXr+Zw==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.0", "email_address"=>"lloop@loopy.org", "phone"=>"111"}, "commit"=>"Update Ticket", "id"=>"3"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+Unpermitted parameter: phone
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:05:55 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/3/edit" for ::1 at 2015-09-10 21:05:57 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/_form.html.erb (2.8ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tickets/3" for ::1 at 2015-09-10 21:06:00 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8zpjVee1MqBAB9EXcmt+nnPDGXoqlnAjwxeWmMldNTM9jtDTTcU4kpETivhHHEocP7gGb+cEJpvg481wuetQSQ==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.0", "email_address"=>"lloop@loopy.org", "phone"=>"aaa"}, "commit"=>"Update Ticket", "id"=>"3"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+Unpermitted parameter: phone
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:06:00 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:06:02 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:09:16 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 21:09:21 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (2.8ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2015-09-10 21:09:29 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6Iu6sDoWTCCcGt0hblfID7tOjjLLHPieqSYMB0oXdzQmPwk2kGZGEk0Ohs5bIPyN9zWRJwaOriaK0lfvOqESTg==", "ticket"=>{"name"=>"Porsha", "seat_id_seq"=>"A112", "address"=>"www.facebook.com", "price_paid"=>"50.0", "email_address"=>"porsha.thompson@ymail.com", "phone"=>"5555555"}, "commit"=>"Update Ticket", "id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+Unpermitted parameter: phone
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/tickets/1
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 21:09:29 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:09:31 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.1ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:14:02 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:14:02 -0700
+
+
+Started GET "/tickets/3/edit" for ::1 at 2015-09-10 21:14:04 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/_form.html.erb (2.8ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tickets/3" for ::1 at 2015-09-10 21:14:14 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PrMkGIsv0scl1DJIkm7g7iSw3ywgDbP4A7omQwJTze3wB5eeIV/Y9fTAaaenGdRsaMvAOe2f5UAgTn2rcuWolw==", "ticket"=>{"name"=>"Larry", "seat_id_seq"=>"Lollis", "address"=>"111 Noodle Loop", "price_paid"=>"0.0", "email_address"=>"lloop@loopy.org", "phone"=>"555-555-5555-555-5555"}, "commit"=>"Update Ticket", "id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+Unpermitted parameter: phone
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/3
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:14:14 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:14:16 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:14:42 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:14:42 -0700
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:14:54 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:14:54 -0700
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:16:19 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.2ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 33ms (Views: 32.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:16:19 -0700
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 21:16:27 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 21:16:37 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/_form.html.erb (3.9ms)
+  Rendered tickets/edit.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2015-09-10 21:16:49 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cI/lqJ1Z1rU7I3E+u+WNHC2XN/fq4S0cuq/tJXz6ifO+O1YuNynch+o3KtGOkrmeYewo4idze6SZW7bNDEzsiQ==", "ticket"=>{"name"=>"Porsha", "seat_id_seq"=>"A112", "address"=>"www.facebook.com", "price_paid"=>"50.0", "email_address"=>"porsha.thompson@ymail.com", "phone"=>"555-555-5555"}, "commit"=>"Update Ticket", "id"=>"1"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+Unpermitted parameter: phone
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/1
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 21:16:49 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:16:52 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-10 21:17:00 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:17:03 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 21:17:05 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:17:06 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets/2/edit" for ::1 at 2015-09-10 21:20:11 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTicket Load (0.2ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered tickets/_form.html.erb (3.4ms)
+  Rendered tickets/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tickets/2" for ::1 at 2015-09-10 21:20:26 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4FFBSORLRWj9GVczqW/LqxIKzOEJyfW1aesL9ropeEwu5fLOTjtPWiwNDNycGP8pXnHT9MRbow1KH1Aeyp8dNg==", "ticket"=>{"name"=>"Judge Judy", "seat_id_seq"=>"B22", "address"=>"123 Lollipop Lane", "price_paid"=>"200.0", "email_address"=>"judgejudy.com", "phone"=>"(123) 555-5555"}, "commit"=>"Update Ticket", "id"=>"2"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 2]]
+Unpermitted parameter: phone
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/2
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/tickets/2" for ::1 at 2015-09-10 21:20:26 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered tickets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:20:30 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:25:43 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.5ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 101ms (Views: 95.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:25:43 -0700
+
+
+Started GET "/tickets/1/edit" for ::1 at 2015-09-10 21:25:45 -0700
+Processing by TicketsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTicket Load (0.2ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered tickets/_form.html.erb (2.8ms)
+  Rendered tickets/edit.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/tickets/1" for ::1 at 2015-09-10 21:25:55 -0700
+Processing by TicketsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UDhL+OLfrPAVAaK3gH0BD9f5oNKKfwp6rgWRZnRmd3aejPh+SK+mwsQV+Vi1CjWNm4K/x0ftXMKN8cqOBNASDA==", "ticket"=>{"name"=>"Porsha", "seat_id_seq"=>"A112", "address"=>"www.facebook.com", "price_paid"=>"50.0", "email_address"=>"porsha.thompson@ymail.com", "phone"=>"(123) 555-5555"}, "commit"=>"Update Ticket", "id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  UPDATE "tickets" SET "phone" = ?, "updated_at" = ? WHERE "tickets"."id" = ?  [["phone", "(123) 555-5555"], ["updated_at", "2015-09-11 04:25:55.113381"], ["id", 1]]
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tickets/1
+Completed 302 Found in 11ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/tickets/1" for ::1 at 2015-09-10 21:25:55 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTicket Load (0.1ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered tickets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:25:57 -0700
+Processing by TicketsController#index as HTML
+  [1m[36mTicket Load (0.3ms)[0m  [1mSELECT "tickets".* FROM "tickets"[0m
+  Rendered tickets/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tickets" for ::1 at 2015-09-10 21:35:53 -0700
+Processing by TicketsController#index as HTML
+  [1m[35mTicket Load (0.3ms)[0m  SELECT "tickets".* FROM "tickets"
+  Rendered tickets/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-10 21:35:53 -0700
+
+
+Started GET "/" for ::1 at 2015-09-11 09:56:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.9ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (66.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (161.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateEvents (20150911165632)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "artist" varchar, "short_bio" text, "price_low" decimal, "price_high" decimal, "event_date" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150911165632"]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2015-09-11 09:57:16 -0700
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 22ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-11 09:57:19 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2015-09-11 09:57:21 -0700
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 532ms (Views: 526.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 09:57:21 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 09:57:21 -0700
+
+
+Started GET "/assets/events.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 09:57:21 -0700
+
+
+Started GET "/events" for ::1 at 2015-09-11 10:12:54 -0700
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 144ms (Views: 139.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/events.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-11 10:12:54 -0700
+
+
+Started GET "/events" for ::1 at 2015-09-11 10:33:50 -0700
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/events.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-11 10:33:50 -0700
+
+
+Started GET "/events" for ::1 at 2015-09-11 10:33:52 -0700
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/scaffolds.self-70ef293915b8913670d47673fc8f8ff5f949b82b7d5e52b703ea1dcd3b4b2cc4.css?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/tickets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/events.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-11 10:33:52 -0700
+
+
+Started GET "/events" for ::1 at 2015-09-11 10:34:48 -0700
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:48 -0700
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:48 -0700
+
+
+Started GET "/" for ::1 at 2015-09-11 10:34:49 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-11 10:34:51 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-11 10:34:52 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mTicket Load (2.4ms)[0m  SELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 112ms (Views: 71.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:52 -0700
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:52 -0700
+
+
+Started GET "/tickets/3" for ::1 at 2015-09-11 10:34:58 -0700
+Processing by TicketsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTicket Load (0.1ms)[0m  [1mSELECT  "tickets".* FROM "tickets" WHERE "tickets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered tickets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/tickets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:58 -0700
+
+
+Started GET "/assets/events.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-11 10:34:58 -0700
+
+
+Started GET "/" for ::1 at 2015-09-11 10:34:59 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/meBay" for ::1 at 2015-09-11 10:35:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/meBay"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/Porsha/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (24.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (120.9ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (62.0ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (148.7ms)
+
+
+Started GET "/" for ::1 at 2015-09-11 10:36:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/Porsha/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 37ms (Views: 25.5ms | ActiveRecord: 0.0ms)
